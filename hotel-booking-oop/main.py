@@ -55,10 +55,12 @@ class SecureCard(CreditCard):
 
 
 print(df_hotels)
-hotel_id = input("Enter hotel id that you want to book: ")
+hotel_id = input("Enter hotel id that you want to book: ").strip().lstrip("﻿")
 hotel = Hotel(hotel_id)
 
-if hotel.available():
+if hotel_id not in df_hotels["id"].values:
+    print("Unknown hotel id")
+elif hotel.available():
     customer_name = input("Enter your name: ")
     card = SecureCard("1234")
     if card.validate("12/26", "123", "JOHN SMITH"):
