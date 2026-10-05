@@ -1,0 +1,18 @@
+title;description;folder
+Movie Recommender;Popularity-based, content-based (TF-IDF) and collaborative-filtering (SVD) movie recommendations.;movie-recommender
+Book Text Analysis;Regex word statistics and chapter-level VADER sentiment analysis of a book.;book-text-analysis
+Webcam Motion Detector;OpenCV app that detects objects entering the camera view.;webcam-motion-detector
+Weather Data API;Flask REST API serving historical temperature data for weather stations.;weather-data-api
+Weather Forecast Dashboard;Streamlit dashboard plotting the five-day forecast for any city.;weather-forecast-dashboard
+Todo App;The same todo app as a CLI, a desktop GUI and a Streamlit web app.;todo-app
+Daily News Email;Fetches the latest news on a topic from NewsAPI and emails a digest.;daily-news-email
+Tour Scraper;Scrapes a website for new tour dates and stores them in SQLite.;tour-scraper
+Excel to PDF Invoices;Turns Excel invoice files into formatted PDF invoices.;excel-to-pdf-invoices
+Invoice Generator Package;The invoice generator packaged as an installable Python library.;invoice-generator-package
+PDF Template Generator;Generates a lined notebook PDF from a CSV of topics.;pdf-template-generator
+Hotel Booking (OOP);Object-oriented hotel booking flow with card validation.;hotel-booking-oop
+Student Management (SQLite);PyQt6 desktop CRUD app backed by SQLite.;student-management-sqlite
+Student Management (MySQL);PyQt6 desktop CRUD app with search, backed by MySQL.;student-management-mysql
+Job Application (Flask);Job application form with Flask and SQLAlchemy.;job-application-flask
+Job Application (Django);Job application form with Django forms and the admin panel.;job-application-django
+Restaurant Menu (Django);Restaurant menu site using Django class-based views.;restaurant-menu-django

@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# Local databases and generated output
+*.db
+*.sqlite3
+todos.txt
+excel-to-pdf-invoices/PDFs/
+invoice-generator-package/PDFs/
+pdf-template-generator/output.pdf
+webcam-motion-detector/images/
+restaurant-menu-django/qr.png
+
+# Datasets (see each project's README for download links)
+weather-data-api/data_small/
+movie-recommender/movies.csv
+movie-recommender/credits.csv
+movie-recommender/ratings.csv
+book-text-analysis/book.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
